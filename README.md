@@ -35,4 +35,6 @@ These files are already included in the MAIL/GM 2024_Python file now.
 
 ## **Implematation of MAIL Method**
 
+Once you have the expert demonstrations for different cases, you can start to implement the MAIL method in the MAIL/GM 2024_Python file.
+
 
