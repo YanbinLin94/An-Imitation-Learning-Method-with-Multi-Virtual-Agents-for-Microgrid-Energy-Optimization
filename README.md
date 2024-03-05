@@ -12,7 +12,9 @@ This is an open-code for our PESGM 2024 paper: An Imitation Learning Method with
   pages={1-5},
   keywords={Imitation learning, interrupted power supply, deep neural networks, machine learning, multi-virtual agents, and microgrid energy scheduling},
   doi={}}
+```
 
+```
 @INPROCEEDINGS{10252933,
   author={Lin, Yanbin and Das, Avijit and Ni, Zhen},
   booktitle={2023 IEEE Power & Energy Society General Meeting (PESGM)}, 
