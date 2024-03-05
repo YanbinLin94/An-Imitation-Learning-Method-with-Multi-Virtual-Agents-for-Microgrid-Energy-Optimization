@@ -4,7 +4,7 @@ This is an open-code for our PESGM 2024 paper: An Imitation Learning Method with
 ## **Citation**
 **Please cite these papers when you use or modify this code.**
 ```
-@INPROCEEDINGS{10252933,
+@INPROCEEDINGS{Lin_MAIL,
   author={Lin, Yanbin and Ni, Zhen and Tang, Yufei},
   booktitle={2024 IEEE Power & Energy Society General Meeting (PESGM)}, 
   title={An Imitation Learning Method with Multi-Virtual Agents for Microgrid Energy Optimization under Interrupted Periods}, 
