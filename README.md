@@ -109,10 +109,15 @@ if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || ti
 There are three kinds of loss functions that can be used in the MAIL method.
 You can use either
 ```loss_value = (loss11+loss12+loss13+loss21+loss22+loss23+loss31+loss32+loss33)/9```
+
 or
+
 ```loss_value = (loss1 + loss2 + loss3)/3```
+
 or
+
 ```loss_value = (loss11 + loss22 + loss33)/3```
+
 Currently, we used the second one.
 
 The relationship of these losses are listed in the table below.
