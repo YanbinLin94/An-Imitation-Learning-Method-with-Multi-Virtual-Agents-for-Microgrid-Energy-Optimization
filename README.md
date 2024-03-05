@@ -90,10 +90,34 @@ The figures are shown as below.
 ![policy](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/a4781326-95a5-4e54-ba07-7f148b7669aa)
 
 ## Case Studies
-### Case 1: Change the discreted size of SOC
+### Case 1: Change the Discreted Size of SOC
 Change the value of N in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to change the discreted size. For example, if you want to discrete the SOC to 11 states, change N=11-1=10; if you want discrete the SOC to 1001 states, change N=1001-1=1000.
 
-### Case 2: Change the interrupted time
+### Case 2: Change the Interrupted Time
+Change **fault_time = [10 11 12 13]** in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to any time slot you would like to try. Remeber, current code only support time slot equals to 4 hours. If you want to implement the scenario that interrupted time slot doesn't equal to 4 hours, such as [10 11 12 13 14 15] (6 hours), you need to the sentence in the MAIL/GM 2024_Matlab/F_costval_DP_FLT.m and MAIL/GM 2024_Matlab/F_costval_RL_FLT.m files.
+```
+if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4)
+    sig = 1;
+```
+to
+```
+if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4) || time == fault_time(5) || time == fault_time(6)
+   sig = 1;
+```
+
+### Case 3: Change the Loss Function of MAIL Method
+There are three kinds of loss functions that can be used in the MAIL method.
+You can use either
+```loss_value = (loss11+loss12+loss13+loss21+loss22+loss23+loss31+loss32+loss33)/9```
+or
+```loss_value = (loss1 + loss2 + loss3)/3```
+or
+```loss_value = (loss11 + loss22 + loss33)/3```
+Currently, we used the second one.
+
+The relationship of these losses are listed in the table below.
+![Picture1](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/ed3ab8b0-d6f1-48b5-ad9d-fc6fb3162554)
+
 
 
 
