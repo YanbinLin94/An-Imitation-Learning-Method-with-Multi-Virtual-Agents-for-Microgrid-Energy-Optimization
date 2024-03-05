@@ -46,6 +46,16 @@ You will get the result of MAIL method: policy10-15_max3_dp11.csv. This is a pol
 
 You will get the cost of this learned policy and a "result_of_interruption10-15_max_dp51.csv" file including 7 rows of  output results: Battery_soc, power from grid,	power to grid,	battery discharged power,	battery charged power,	and dg output.
 
+### Plot Figures
+
+Copy "result_of_interruption10-15_max_dp51.csv" to MAIL/GM 2024_Matlab file.
+
+```Run the plot_result.m file```
+
+You will get the output figure of the proposed MAIL method.
+
+![result](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/ef855c07-7db0-4040-b697-fc4d2c7a38af)
+
 
 
 
