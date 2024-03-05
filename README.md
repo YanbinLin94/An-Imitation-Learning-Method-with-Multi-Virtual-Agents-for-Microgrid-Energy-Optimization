@@ -2,7 +2,7 @@
 This is an open-code for our PESGM 2024 paper: An Imitation Learning Method with Multi-Virtual Agents for Microgrid Energy Optimization under Interrupted Periods.
 
 ## **Citation**
-Please cite these papers when you use or modify this code.
+**Please cite these papers when you use or modify this code.**
 ```
 @INPROCEEDINGS{10252933,
   author={Lin, Yanbin and Ni, Zhen and Tang, Yufei},
