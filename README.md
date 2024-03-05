@@ -91,6 +91,11 @@ The figures are shown as below.
 
 ## Case Studies
 ### Case 1: Change the discreted size of SOC
+Change the value of N in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to change the discreted size. For example, if you want to discrete the SOC to 11 states, change N=11-1=10; if you want discrete the SOC to 1001 states, change N=1001-1=1000.
+
+### Case 2: Change the interrupted time
+
+
 
 
 
