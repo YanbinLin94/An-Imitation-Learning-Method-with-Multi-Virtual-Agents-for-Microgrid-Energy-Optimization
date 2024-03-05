@@ -19,7 +19,7 @@ To investigate the impact of power supply interruptions on the microgrid operati
 
 Here is an example to generate data for the latter implementation of our proposed **MAIL** method.
 
-Assume we discrete the SOC state into 51 sizes, and the interrupted time is from 10^th to 13^th hour (T=24, a day for 24 hours).
+Assume we discrete the SOC state into 51 sizes, and the interrupted time is from $10^{th}$ to $13^{th}$ hour (T=24, a day for 24 hours).
 
 ```Run the MATLAB code in the file MAIL/GM 2024_Matlab/GM 2024_Matlab.m```
 
