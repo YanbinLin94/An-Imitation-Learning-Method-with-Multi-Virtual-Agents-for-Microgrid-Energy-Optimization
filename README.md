@@ -17,4 +17,4 @@ To investigate the impact of power supply interruptions on the microgrid operati
 
 ### Example of Data Generation
 
-Here is an example to generate data for the latter implementation of our proposed MVIL method.
+Here is an example to generate data for the latter implementation of our proposed **MAIL** method.
