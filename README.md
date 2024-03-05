@@ -27,4 +27,6 @@ Then you will get a **interrupt10-13_dp51.xls** file and some output figures. Th
 
 ![output](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/0fecf82d-a24e-4fe4-83ba-39a8898d6d29)
 
-To implement our proposed MAIL method, you still need to generate other scenarios' expert demonstrations, since there will be several virtual agents to solve different cases in MAIL method. For example, we consider three virtual environments that the power supply interruptions happen at the time-period $10^{th}-13^{th}$ hours, $11^{th}-14^{th}$ hours, and $12^{th}-15^{th}$ hours. Three local virtual agents are applied to imitate the corresponding virtual environment's actions.
+To implement our proposed MAIL method, you still need to generate other scenarios' expert demonstrations, since there will be several virtual agents to solve different cases in MAIL method. 
+
+For example, we consider three virtual environments that the power supply interruptions happen at the time-period $10^{th}-13^{th}$ hours, $11^{th}-14^{th}$ hours, and $12^{th}-15^{th}$ hours. Three local virtual agents are applied to imitate the corresponding virtual environment's actions. So you need to change **fault_time = [10 11 12 13]** to **fault_time = [11 12 13 14]** to generate **interrupt11-14_dp51.xls**, and change **fault_time = [10 11 12 13]** to **fault_time = [12 13 14 15]** to generate **interrupt12-15_dp51.xls**. These files are already included in the MAIL/GM 2024_Python file now.
