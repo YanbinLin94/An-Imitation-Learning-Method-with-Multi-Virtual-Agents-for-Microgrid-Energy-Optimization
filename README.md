@@ -1,5 +1,28 @@
-# Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling (MAIL)
+# (PESGM 2024) Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling (MAIL)
 This is an open-code for our PESGM 2024 paper: An Imitation Learning Method with Multi-Virtual Agents for Microgrid Energy Optimization under Interrupted Periods.
+
+## **Citation**
+```
+@INPROCEEDINGS{10252933,
+  author={Lin, Yanbin and Ni, Zhen and Tang, Yufei},
+  booktitle={2024 IEEE Power & Energy Society General Meeting (PESGM)}, 
+  title={An Imitation Learning Method with Multi-Virtual Agents for Microgrid Energy Optimization under Interrupted Periods}, 
+  year={2024},
+  pages={1-5},
+  keywords={Imitation learning, interrupted power supply, deep neural networks, machine learning, multi-virtual agents, and microgrid energy scheduling},
+  doi={}}
+
+@INPROCEEDINGS{10252933,
+  author={Lin, Yanbin and Das, Avijit and Ni, Zhen},
+  booktitle={2023 IEEE Power & Energy Society General Meeting (PESGM)}, 
+  title={A Modified Maximum Entropy Inverse Reinforcement Learning Approach for Microgrid Energy Scheduling}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Learning systems;Q-learning;Processor scheduling;Microgrids;Feature extraction;Entropy;Scheduling;Distributed energy resources;reinforcement learning;maximum entropy inverse reinforcement learning;microgrid energy scheduling;and operation optimization},
+  doi={10.1109/PESGM52003.2023.10252933}}
+```
 
 ## **Set Up**
 
@@ -62,7 +85,11 @@ The figures are shown as below.
 ![p1](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/e5dc3739-8739-403d-b87e-29c29e7e24e5)
 
 ![p2](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/42bc5a23-9c6c-4361-8ce3-6759c4c6a7f1)
+
 ![policy](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/a4781326-95a5-4e54-ba07-7f148b7669aa)
+
+## Case Studies
+### Case 1: Change the discreted size of SOC
 
 
 
