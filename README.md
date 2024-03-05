@@ -10,3 +10,7 @@ This is an open-code for our PESGM 2024 paper: An Imitation Learning Method with
 •	Python
 
 •	sklearn/tensorflow/keras/numpy/xlrd/pandas libraries
+
+## **Data Preparation**
+
+
