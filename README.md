@@ -82,11 +82,10 @@ You will get the output figure of the proposed MAIL method.
 
 <img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/ef855c07-7db0-4040-b697-fc4d2c7a38af" width="600" height="400">
 
-
 You can also use plot_batt_pol.m and plot_cost.m files to compare the results of different methods: such as the Aggregated Q-learning method and DP method (These two methods' implementations are also included in our MAIL/GM 2024_Matlab filefolder: Cooperative_system.m and mainDP_Interrupted.m). If you want to compare different methods' results, you need to copy their result to comparative_batt_pol_soc51.csv and comparative_cost_soc51.csv before you run plot_batt_pol.m and plot_cost.m files (They are already included in the file folders now).
 
 The figures are shown below.
-![p1](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/e5dc3739-8739-403d-b87e-29c29e7e24e5 =250x250)
+<img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/e5dc3739-8739-403d-b87e-29c29e7e24e5" width="600" height="400">
 
 ![p2](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/42bc5a23-9c6c-4361-8ce3-6759c4c6a7f1 =250x250)
 
