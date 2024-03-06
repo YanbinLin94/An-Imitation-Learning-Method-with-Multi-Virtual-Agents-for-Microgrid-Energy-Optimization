@@ -65,7 +65,7 @@ These files are already included in the MAIL/GM 2024_Python file folder now.
 
 In our paper, we consider a grid-connected microgrid consisting of four units from the perspective of energy generation and load demand shown as below. The four units are the battery energy storage system (BESS), the distributed generations, including diesel generator (DG) and renewable generations (RG), the main grid, and the residential load. The optimization problem is to make hourly dispatch decisions over a time period of T(24 hours).
 
-<img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/198a398a-e800-4e95-8e21-92594a006782" width="500" height="300">
+<img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/198a398a-e800-4e95-8e21-92594a006782" width="600" height="400">
 
 This is the framework of our proposed multi-virtual-agent imitation learning approach for the microgrid system. 
 
