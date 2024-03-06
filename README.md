@@ -53,7 +53,7 @@ Then you will get a **interrupt10-13_dp51.xls** file and some output figures. Th
 
 ![output](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/0fecf82d-a24e-4fe4-83ba-39a8898d6d29)
 
-<img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/0fecf82d-a24e-4fe4-83ba-39a8898d6d29" width="300" height="300">
+<img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/0fecf82d-a24e-4fe4-83ba-39a8898d6d29" width="500" height="500">
 
 To implement our proposed MAIL method, you still need to generate other scenarios' expert demonstrations, since there will be several virtual agents to solve different cases in the MAIL method. 
 
