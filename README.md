@@ -125,6 +125,7 @@ or
 Currently, we use the second one.
 
 The relationship of these losses is listed in the table below.
+<br/><br/>
 ![Picture1](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/ed3ab8b0-d6f1-48b5-ad9d-fc6fb3162554)
 
 
