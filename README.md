@@ -62,7 +62,7 @@ For example, we consider three virtual environments that the power supply interr
 These files are already included in the MAIL/GM 2024_Python file folder now.
 
 ## **Implementation of MAIL Method**
-### Generate Learner Policy and Output Results
+### Generation of Learner Policy and Results
 
 Once you have the expert demonstrations for different cases, you can implement the MAIL method in the MAIL/GM 2024_Python file folder.
 
@@ -74,7 +74,7 @@ You will get the result of the MAIL method: policy10-15_max3_dp11.csv. This is a
 
 You will get the cost of this learned policy and a "result_of_interruption10-15_max_dp51.csv" file including 7 rows of output results: Battery_soc, power from grid,	power to grid,	battery discharged power,	battery charged power,	and dg output.
 
-### Plot Figures
+### Generation of Figures
 
 Copy "result_of_interruption10-15_max_dp51.csv" to MAIL/GM 2024_Matlab filefolder.
 
@@ -95,10 +95,10 @@ The figures are shown below.
 <img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/a4781326-95a5-4e54-ba07-7f148b7669aa" width="600" height="400">
 <br/><br/>
 ## Case Studies
-### Case 1: Change the Discreted Size of SOC
+### Case 1: Change of the Discreted Size of SOC
 Change the value of N in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to change the discrete size. For example, if you want to discrete the SOC to 11 states, change N=11-1=10; if you want to discrete the SOC to 1001 states, change N=1001-1=1000.
 
-### Case 2: Change the Interrupted Time
+### Case 2: Change of the Interrupted Time Period
 Change **fault_time = [10 11 12 13]** in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to any time slot you want to try. Remember, the current code only supports time slots equal to 4 hours. If you want to implement the scenario that the interrupted time slot doesn't equal 4 hours, such as [10 11 12 13 14 15] (6 hours), you need the sentence in the MAIL/GM 2024_Matlab/F_costval_DP_FLT.m and MAIL/GM 2024_Matlab/F_costval_RL_FLT.m files.
 ```
 if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4)
@@ -110,7 +110,7 @@ if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || ti
    sig = 1;
 ```
 
-### Case 3: Change the Loss Function of the MAIL Method
+### Case 3: Change of the Loss Function in the MAIL Method
 Three kinds of loss functions can be used in the MAIL method.
 You can use either
 
