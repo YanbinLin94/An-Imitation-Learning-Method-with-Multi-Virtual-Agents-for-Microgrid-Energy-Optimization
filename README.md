@@ -16,7 +16,8 @@ This is an open code for our PESGM 2024 paper:
   doi={}}
 ```
 
-This the our previous paper. For detailed about case studies and system description, please see this paper:https://ieeexplore.ieee.org/abstract/document/10252933.
+This the our previous paper. For detailed about case studies and system description, please see this paper:
+https://ieeexplore.ieee.org/abstract/document/10252933.
 ```
 @INPROCEEDINGS{10252933,
   author={Lin, Yanbin and Das, Avijit and Ni, Zhen},
