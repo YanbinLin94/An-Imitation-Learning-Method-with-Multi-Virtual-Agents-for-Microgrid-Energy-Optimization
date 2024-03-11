@@ -26,10 +26,10 @@ def excel_to_matrix(name):
     return datamatrix
 
 
-data1 = excel_to_matrix('interrupt10-13_dp11.xls')
-data2 = excel_to_matrix('interrupt11-14_dp11.xls')
-data3 = excel_to_matrix('interrupt12-15_dp11.xls')
-data = excel_to_matrix('interrupt10-15_dp11.xls')
+data1 = excel_to_matrix('interrupt10-13_dp51.xls')
+data2 = excel_to_matrix('interrupt11-14_dp51.xls')
+data3 = excel_to_matrix('interrupt12-15_dp51.xls')
+data = excel_to_matrix('interrupt10-15_dp51.xls')
 X1_ = data1[:,0:8]
 Y1_ = data1[:,8]
 X2_ = data2[:,0:8]
@@ -98,7 +98,7 @@ for run in range(10000):
         loss33 = loss_fn(Y3, Y3_P)
         loss3 = max(loss31, loss32, loss33)
         #loss_value = (loss11+loss12+loss13+loss21+loss22+loss23+loss31+loss32+loss33)/9
-        loss_value = (loss1 + loss2 + loss3)/3
+        loss_value = (loss1 + loss2 + loss3)/3 % average max loss value of three agents
         #loss_value = (loss11 + loss22 + loss33)/3
     # Update the weights of the model to minimize the loss value.
     gradients = tape.gradient(loss_value, model.trainable_weights)
@@ -106,5 +106,5 @@ for run in range(10000):
 
 Y_P = model.predict(X)
 Predictions = TargetVarScalerFit.inverse_transform(Y_P)
-np.savetxt('policy10-15_max3_dp11.csv', Predictions,delimiter=',')
+np.savetxt('policy10-15_max_dp51.csv', Predictions,delimiter=',')
 
