@@ -5,7 +5,6 @@ dg_c = 1.1;
 min_dg = 0.3*100;
 j = time;
 
-%%
 sig = 0;
 %if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4) || time == fault_time(5) || time == fault_time(6)
 % if interrupted hours are larger than 4, please change this line; 
@@ -13,7 +12,7 @@ sig = 0;
 if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4)
     sig = 1;
 end
-%%  
+
 if DA_load(j) > DA_E(j)
       
       if real_batt <= 0 
