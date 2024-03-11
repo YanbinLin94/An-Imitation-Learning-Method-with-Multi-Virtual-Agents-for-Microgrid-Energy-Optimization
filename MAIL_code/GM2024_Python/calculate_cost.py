@@ -1,4 +1,5 @@
 """
+Copyright 2024 Yanbin Lin. All rights reserved.
 This code is written by Yanbin Lin in 2023.
 If this code is used for any research purpose, please cite our PESGM’24 paper below.
 Yanbin Lin, Zhen Ni, and Yufei Tang, “An Imitation Learning Method with Multi virtual Agents for Microgrid Energy Optimization under Interrupted Periods,” in Proc. of IEEE Power & Energy Society General Meeting (PESGM’24), pp.1-5, Washington, DC, USA, Jul. 21-25, 2024. 
