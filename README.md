@@ -1,6 +1,6 @@
-# (PESGM 2024) An Imitation Learning Method with Multi virtual Agents for Microgrid Energy Optimization under Interrupted Periods (MAIL)
+# (PESGM 2024) An Imitation Learning Method with Multi Virtual Agents for Microgrid Energy Optimization under Interrupted Periods (MAIL)
 This is an open-source code for our PESGM 2024 paper: 
-[An Imitation Learning Method with Multi virtual Agents for Microgrid Energy Optimization under Interrupted Periods.pdf](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/files/14512270/An.Imitation.Learning.Method.with.Multi.virtual.Agents.for.Microgrid.Energy.Optimization.under.Interrupted.Periods.pdf)
+[An Imitation Learning Method with Multi Virtual Agents for Microgrid Energy Optimization under Interrupted Periods.pdf](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/files/14512270/An.Imitation.Learning.Method.with.Multi.virtual.Agents.for.Microgrid.Energy.Optimization.under.Interrupted.Periods.pdf)
 
 
 ## **Citation**
