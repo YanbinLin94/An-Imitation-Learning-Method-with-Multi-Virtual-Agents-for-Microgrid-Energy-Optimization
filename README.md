@@ -75,7 +75,7 @@ This is the framework of our proposed multi-virtual-agent imitation learning app
 ![framework](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/bc17c283-cefc-4fe4-bd39-f40418d531ec)
 
 
-Several virtual environments' expert demonstrations are used to imitate parallel, and the maximum crossover discriminators are calculated as the loss function.
+Several virtual environments' expert demonstrations are used to imitate actions in parallel, and the maximum crossover discriminators are calculated as the loss function.
 
 ### Generation of Learner Policy and Results
 
