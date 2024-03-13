@@ -16,7 +16,7 @@ This is an open-source code for our PESGM 2024 paper:
   doi={}}
 ```
 
-For detailed about system model description, please see this paper: [A Modified Maximum Entropy Inverse Reinforcement Learning Approach for Microgrid Energy Scheduling.pdf](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/files/14559667/A.Modified.Maximum.Entropy.Inverse.Reinforcement.Learning.Approach.for.Microgrid.Energy.Scheduling.pdf).
+For detailed system model description, please see this paper: [A Modified Maximum Entropy Inverse Reinforcement Learning Approach for Microgrid Energy Scheduling.pdf](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/files/14559667/A.Modified.Maximum.Entropy.Inverse.Reinforcement.Learning.Approach.for.Microgrid.Energy.Scheduling.pdf).
 
 
 ```
