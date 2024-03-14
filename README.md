@@ -1,5 +1,5 @@
 # An Imitation Learning Method with Multi Virtual Agents for Microgrid Energy Optimization under Interrupted Periods
-This is an open-source code for our PESGM 2024 paper: 
+We propose a multi-virtual-agent imitation learning approach to learn the dispatch policy of the microgrid energy system under different power supply interrupted periods. Multi-virtual agents are used for exploring the relationship of uncertainties and corresponding actions in different microgrid environments in parallel. For more details, please see our paper:
 [An Imitation Learning Method with Multi Virtual Agents for Microgrid Energy Optimization under Interrupted Periods.pdf](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/files/14512270/An.Imitation.Learning.Method.with.Multi.virtual.Agents.for.Microgrid.Energy.Optimization.under.Interrupted.Periods.pdf)
 
 
