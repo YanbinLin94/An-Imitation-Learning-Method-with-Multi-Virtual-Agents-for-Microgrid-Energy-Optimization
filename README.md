@@ -124,7 +124,7 @@ to
 if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4) || time == fault_time(5) || time == fault_time(6)
    sig = 1;
 ```
-
+<!--
 ### Case 3: Change of the Loss Function in the MAIL Method
 Three kinds of loss functions can be used in the MAIL method.
 we can use either
@@ -144,7 +144,7 @@ Currently, we use the second one.
 The relationship of these losses is listed in the table below.
 <br/><br/>
 ![Picture1](https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/ed3ab8b0-d6f1-48b5-ad9d-fc6fb3162554)
-
+-->
 
 
 
