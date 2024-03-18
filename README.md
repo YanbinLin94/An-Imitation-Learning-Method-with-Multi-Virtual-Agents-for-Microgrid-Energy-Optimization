@@ -4,7 +4,7 @@ We propose a multi-virtual-agent imitation learning approach to learn the dispat
 
 
 ## **Citation**
-**If we find this research useful, please cite these papers when we use this code.**
+**Here is the full citation of our paper.**
 ```
 @INPROCEEDINGS{Lin_MAIL,
   author={Lin, Yanbin and Ni, Zhen and Tang, Yufei},
