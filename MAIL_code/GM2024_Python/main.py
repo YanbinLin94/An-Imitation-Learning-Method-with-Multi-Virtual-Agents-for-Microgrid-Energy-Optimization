@@ -98,7 +98,7 @@ for run in range(10000):
         loss33 = loss_fn(Y3, Y3_P)
         loss3 = max(loss31, loss32, loss33)
         #loss_value = (loss11+loss12+loss13+loss21+loss22+loss23+loss31+loss32+loss33)/9
-        loss_value = (loss1 + loss2 + loss3)/3 % average max loss value of three agents
+        loss_value = (loss1 + loss2 + loss3)/3 # average max loss value of three agents
         #loss_value = (loss11 + loss22 + loss33)/3
     # Update the weights of the model to minimize the loss value.
     gradients = tape.gradient(loss_value, model.trainable_weights)
