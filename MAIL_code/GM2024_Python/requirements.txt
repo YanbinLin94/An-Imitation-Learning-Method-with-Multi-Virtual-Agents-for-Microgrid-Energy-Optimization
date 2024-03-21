@@ -1,0 +1,13 @@
+# Standard
+numpy
+matplotlib
+pandas
+xlrd
+keras
+
+
+# Learning libraries
+tensorflow==2.12.0
+scikit-learn==1.3.2
+
+
