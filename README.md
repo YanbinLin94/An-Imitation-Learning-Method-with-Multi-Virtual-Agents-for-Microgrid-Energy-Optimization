@@ -42,7 +42,7 @@ For detailed system model description, please see this paper: [A Modified Maximu
 •	sklearn/tensorflow/keras/numpy/xlrd/pandas libraries
 
 Clone the repository and install dependencies
-'''
+```
 # clone project
 git clone https://github.com/YanbinLin94/An-Imitation-Learning-Method-with-Multi-Virtual-Agents-for-Microgrid-Energy-Optimization.git
 # install project
@@ -52,7 +52,7 @@ conda create --name MAIL python=3.9
 conda activate MAIL
 pip install -e .
 pip install -r requirements.txt
-'''
+```
 
 ## **Data Preparation**
 
