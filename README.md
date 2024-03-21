@@ -104,7 +104,7 @@ We will get the cost of this learned policy and a "result_of_interruption10-15_m
 
 ### Generation of Figures
 
-Copy "result_of_interruption10-15_max_dp51.csv" to MAIL/GM 2024_Matlab filefolder.
+Copy "result_of_interruption10-15_max3_dp51.csv" to MAIL/GM 2024_Matlab filefolder.
 
 ```Run the plot_result.m file```
 
