@@ -32,7 +32,7 @@ For detailed system model description, please see this paper: [A Modified Maximu
   doi={10.1109/PESGM52003.2023.10252933}}
 ```
 
-## **Clone the repository and install dependencies**
+## **How to run**
 **This code requires:**
 
 •	MATLAB
