@@ -32,8 +32,7 @@ For detailed system model description, please see this paper: [A Modified Maximu
   doi={10.1109/PESGM52003.2023.10252933}}
 ```
 
-## **Set Up**
-
+## **Clone the repository and install dependencies**
 **This code requires:**
 
 •	MATLAB
@@ -41,6 +40,19 @@ For detailed system model description, please see this paper: [A Modified Maximu
 •	Python
 
 •	sklearn/tensorflow/keras/numpy/xlrd/pandas libraries
+
+Clone the repository and install dependencies
+'''
+# clone project
+git clone https://github.com/YanbinLin94/An-Imitation-Learning-Method-with-Multi-Virtual-Agents-for-Microgrid-Energy-Optimization.git
+# install project
+cd MAIL_code
+cd GM2024_Python
+conda create --name MAIL python=3.9
+conda activate MAIL
+pip install -e .
+pip install -r requirements.txt
+'''
 
 ## **Data Preparation**
 
