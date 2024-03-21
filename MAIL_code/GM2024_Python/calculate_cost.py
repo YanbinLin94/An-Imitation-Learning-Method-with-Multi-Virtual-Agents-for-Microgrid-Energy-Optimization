@@ -12,7 +12,7 @@ from numpy import genfromtxt
 data = pd.read_excel(r'price.xlsx', engine='openpyxl')
 price = data[['Energy price']][0:24]/1000
 
-my_data = genfromtxt('policy10-15_max_dp51.csv', delimiter=',')
+my_data = genfromtxt('policy10-15_max3_dp51.csv', delimiter=',')
 DA_load = [61.05,55.39,53.15,53.10,52.98,55.53,66.27,83.15,78.98,67.34,67.83,64.36,61.35,59.11,59.04,63.01,76.97,104.91,119.59,117.77,110.19,102.31,87.24,72.45]
 max_DA_load = max(DA_load)
 for i in range(24):
@@ -105,7 +105,7 @@ Output_result.append(Batt_Charge)
 Output_result.append(Dg_output)
 Output_result.append(Cost)
 Output_result = np.array(Output_result)
-np.savetxt('result_of_interruption10-15_max_dp51.csv', Output_result, delimiter=',')
+np.savetxt('result_of_interruption10-15_max3_dp51.csv', Output_result, delimiter=',')
 
 
 

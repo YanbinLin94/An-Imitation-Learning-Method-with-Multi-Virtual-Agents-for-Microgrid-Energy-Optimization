@@ -1,6 +1,6 @@
 clear all;clc;
 %plot the results of multiple imitation learning
-data=csvread('result_of_interruption10-15_max_dp51.csv');
+data=csvread('result_of_interruption10-15_max3_dp51.csv');
 batt_soc = data(1,:);
 from_grid = data(2,:);
 to_grid = data(3,:);
