@@ -46,6 +46,7 @@ Clone the repository and install dependencies
 # clone project
 git clone https://github.com/YanbinLin94/An-Imitation-Learning-Method-with-Multi-Virtual-Agents-for-Microgrid-Energy-Optimization.git
 # install project
+cd An-Imitation-Learning-Method-with-Multi-Virtual-Agents-for-Microgrid-Energy-Optimization
 cd MAIL_code
 cd GM2024_Python
 conda create --name MAIL python=3.9
