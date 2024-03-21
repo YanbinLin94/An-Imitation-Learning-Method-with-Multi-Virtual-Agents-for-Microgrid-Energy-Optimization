@@ -100,7 +100,7 @@ We will get the result of the MAIL method: policy10-15_max3_dp11.csv. This is a 
 
 ```Run the calculate_cost.py file```
 
-We will get the cost of this learned policy and a "result_of_interruption10-15_max_dp51.csv" file including 7 rows of output results: Battery_soc, power from grid,	power to grid,	battery discharged power,	battery charged power,	and dg output.
+We will get the cost of this learned policy and a "result_of_interruption10-15_max3_dp51.csv" file including 7 rows of output results: Battery_soc, power from grid,	power to grid,	battery discharged power,	battery charged power,	and dg output.
 
 ### Generation of Figures
 
@@ -123,7 +123,7 @@ The figures are shown below.
 <img src="https://github.com/YanbinLin94/Multi-virtual-agent-Imitation-Learning-for-Microgrid-Energy-Scheduling/assets/97860537/a4781326-95a5-4e54-ba07-7f148b7669aa" width="600" height="400">
 <br/><br/>
 ## Case Studies
-### Case 1: Change of the Discreted Size of SOC
+### Case 1: Change of the Discrete Size of SOC
 Change the value of N in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to change the discrete size. For example, if we want to discrete the SOC to 11 states, change N=11-1=10; if we want to discrete the SOC to 1001 states, change N=1001-1=1000.
 
 ### Case 2: Change of the Interrupted Time Period
