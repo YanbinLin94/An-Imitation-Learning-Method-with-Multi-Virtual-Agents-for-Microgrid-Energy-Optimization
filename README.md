@@ -127,7 +127,7 @@ The figures are shown below.
 Change the value of N in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to change the discrete size. For example, if we want to discrete the SOC to 11 states, change N=11-1=10; if we want to discrete the SOC to 1001 states, change N=1001-1=1000.
 
 ### Case 2: Change of the Interrupted Time Period
-Change **fault_time = [10 11 12 13]** in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to any time slot we want to try. Remember, the current code only supports time slots equal to 4 hours. If we want to implement the scenario that the interrupted time slot doesn't equal 4 hours, such as [10 11 12 13 14 15] (6 hours), we need to change the sentence in the MAIL/GM 2024_Matlab/F_costval_DP_FLT.m and MAIL/GM 2024_Matlab/F_costval_RL_FLT.m files.
+Change **fault_time = [10 11 12 13]** in the MAIL/GM 2024_Matlab/mainDP_Interrupted.m to any time slot we want to try. Remember, the current code only supports time slots equal to 4 hours. If we want to implement the scenario that the interrupted time slot doesn't equal 4 hours, such as [10 11 12 13 14 15] (6 hours), we need to change the sentence in the MAIL/GM 2024_Matlab/F_costval_DP_FLT.m file.
 ```
 if time == fault_time(1) || time == fault_time(2) || time == fault_time(3) || time == fault_time(4)
     sig = 1;
